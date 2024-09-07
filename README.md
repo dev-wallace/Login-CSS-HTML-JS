@@ -22,17 +22,24 @@ O projeto está dividido em três arquivos principais:
 ## Visualizações
 - **Modo Claro** no VS Code:
 
-![Modo Claro VS Code](https://github.com/user-attachments/assets/dbe521e9-0172-4c3d-a518-f250bf472027)
+
+![Modo Claro VS Code](https://github.com/user-attachments/assets/0fb1b632-570d-44d9-a7a9-2838c17f60e0)
 
 
 - **Modo Escuro** no VS Code:
 
-![Modo Escuro VS Code](https://github.com/user-attachments/assets/a4ece3dc-a9b9-4e66-8a78-444bd622ff0b)
+![Modo Escuro VS Code](https://github.com/user-attachments/assets/5919c4ee-e253-4dad-b5ea-0b0a46a298f4)
 
 
 - **Exibição no Navegador**:
 
-![Navegador Preview](https://github.com/user-attachments/assets/00af4eb2-4df1-4aab-85a4-5833d99aca6a)
+
+![Navegador Preview](https://github.com/user-attachments/assets/1dc772df-6146-4d78-a93a-bf270ca9f4b0)
+
+- **Exibição no Navegador**:
+
+
+![Navegador Preview](https://github.com/user-attachments/assets/7c32ac86-d6cf-4c45-9253-33aa414a9be3)
 
 ## Como Utilizar
 1. Clone este repositório.
