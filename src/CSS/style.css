@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+:root{
+    --color-light-neutral-1:#f8fafc;
+
+
+    --color-dark-1: #797984;
+    --color-dark-2:  #312d37;
+    --color-dark-3: #000;
+
+    --color-gradient: linear-gradient(90deg, #7c3aed, #a855f7, #bf46ef);
+
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#conteiner{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-gradient);
+}
+#social_midia img{
+    width: 35px;
+}
+#social_midia{
+    display: flex;
+    justify-content: space-around;
+}
+#social_midia img:hover{
+    transform: scale(1.2);
+}
+
+#login_form{
+    background-color: var(--color-light-neutral-1);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    border-radius: 10px;
+    gap: 30px;
+    box-shadow: 0px 10px 40px #00000056;
+    height: fit-content;
+}
+#form_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#form_header h1{
+    font-size: 40px;
+    position: relative ; /*paar colocar a alinha de baixo o login*/
+}
+#form_header h1::before{
+    position: absolute;
+    height: 3px;
+    content: '';
+    background-color: #7c3aed;
+    width: 40%;
+    bottom: 10px;
+    border-radius: 5px;
+}
+#mode_icon{
+    cursor: pointer;
+    font-size: 20px;
+}
+#inputs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-box label{
+    font-size: 14px;
+    color: var(--color-dark-1);
+}
+
+.input-field{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    cursor: text;
+    border-bottom: 1px solid #7c3aed;
+}
+.input-field i{
+    font-size: 18px;
+    color: var(--color-dark-3);
+}
+.input-field  input{
+    border: none;
+    background-color: transparent;
+    width: 260px;
+    font-size: 15px;
+    padding: 0px 5px;
+}
+.input-field  input:focus{ /*para tirara o quadrado do input*/
+    outline: none;
+}
+#forgot_password a {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--color-dark-1);
+}
+#forgot_password a:hover{
+    color: #7c3aed;
+
+}
+#login_button{
+    border: none;
+    background: var(--color-gradient);
+    color: var(--color-light-neutral-1);
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#login_button:hover{
+    transform: scale(1.05);
+}
