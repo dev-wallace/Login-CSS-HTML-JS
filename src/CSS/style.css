@@ -6,8 +6,12 @@
     --color-dark-1: #797984;
     --color-dark-2:  #312d37;
     --color-dark-3: #000;
+    
 
-    --color-gradient: linear-gradient(90deg, #7c3aed, #a855f7, #bf46ef);
+    --color-gradient-light: linear-gradient(69.9deg, rgb(76, 79, 106) 3.2%, rgb(118, 124, 163) 97.6%);
+    --color-gradient-dark: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+    
+     
 
 }
 *{
@@ -22,7 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--color-gradient);
+    background: var(--color-gradient-light);
 }
 #social_midia img{
     width: 35px;
@@ -113,7 +117,7 @@
 }
 #login_button{
     border: none;
-    background: var(--color-gradient);
+    background: var(--color-gradient-light);
     color: var(--color-light-neutral-1);
     padding: 5px;
     font-size: 18px;
@@ -123,4 +127,12 @@
 }
 #login_button:hover{
     transform: scale(1.05);
+}
+.dark#login_form {
+    color: var(--color-light-neutral-1);
+    background: var(--color-gradient-dark);
+}
+.dark#login_form .input-field input,
+.dark#login_form .input-field i {
+    color: var(--color-light-neutral-1);
 }
